@@ -31,6 +31,10 @@ app.get('/dashboard', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'dashboard.html'));
 });
 
+app.get('/', (req, res) => {
+  res.redirect('/dashboard');
+});
+
 // Health check
 app.get('/health', (req, res) => {
   res.json({
