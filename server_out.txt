@@ -1,0 +1,3 @@
+Edmonton RE Automation Server running on port 3000
+Dashboard: http://localhost:3000/dashboard
+Health: http://localhost:3000/health
